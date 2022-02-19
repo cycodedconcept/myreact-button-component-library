@@ -8,14 +8,14 @@ const STYLES = [
     "btn--success--solid",
     "btn--primary--outline",
     "btn--warning--outline",
-    "btn--danger--solid",
-    "btn--success--solid"
+    "btn--danger--outline",
+    "btn--success--outline"
 ]
 
 const SIZES = [
+    "btn--large",
     "btn--small",
-    "btn--medium",
-    "btn--large"
+    "btn--medium"
 ]
 
 export const Button = ({ 

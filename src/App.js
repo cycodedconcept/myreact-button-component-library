@@ -6,7 +6,14 @@ import { Button } from "./components/Button"
 function App() {
   return (
     <div className="App">
-      <Button>Buy Now</Button>
+      <Button onClick={() => {
+        console.log("ouch you clicked me!")
+        }} 
+        type="button" 
+        buttonStyle="btn--danger--solid"
+        buttonSize="btn--large"
+        >
+          Buy Now</Button>
     </div>
   );
 }
